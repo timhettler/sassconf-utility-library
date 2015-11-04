@@ -1,0 +1,24 @@
+{
+  "name": "sassconf-utilities",
+  "version": "1.0.0",
+  "homepage": "https://github.com/timhettler/sassconf-utility-library",
+  "authors": [
+    "Tim Hettler <me@timhettler.com>"
+  ],
+  "description": "A collection of Sass mixins & functions written by SassConf 2015 attendees",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "sass",
+    "utilities",
+    "sassconf2015"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "sassconf-utilities",
+  "version": "1.0.0",
+  "description": "A collection of Sass mixins & functions written by SassConf 2015 attendees",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timhettler/sassconf-utility-library.git"
+  },
+  "keywords": [
+    "sass",
+    "utilities",
+    "sassconf2015"
+  ],
+  "author": "Tim Hettler <me@timhettler.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timhettler/sassconf-utility-library/issues"
+  },
+  "homepage": "https://github.com/timhettler/sassconf-utility-library#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^2.0.0",
+    "grunt-sass": "^1.1.0-beta",
+    "grunt-sassdoc": "^2.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "sass-true": "^2.0.2"
+  }
+}
