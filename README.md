@@ -1,11 +1,28 @@
-#SassConf Workshop
+#SassConf Utility Library
 
-Using this repo, we'll learn how to with code for an audience, and share it with the world!
+This library is designed to be a safe place for developers to get their feet wet and contribute to an open-source library for the first time. Feel free to add any useful (or not so useful) mixin or functions that you can think of. If you're looking for something to contribute, check out the issues page.
 
-##Getting Started
+# Contributing to the SassConf Utility Library
 
-1. Download the project files by clicking the **Download ZIP** button. (Over there --->)
-2. Copy the project files to your own repo.
-3. Run `npm install` to download all the project dependencies.
-4. Run `grunt server` that will start a web server that will update whenever you make a change your Sass files.
+After you fork this library, make a new branch, then follow these guidelines:
 
+## 1. Create a new partial in the `sass` folder
+
+1. The filename should match the main mixin or function.
+2. Public variables should start with the prefix `scu-`.
+3. Private variables, fuctions, and mixins should start with an underscore (i.e. `@function _this-is-a-private-function`).
+4. Add your partial to `sass/_utilities.scss`.
+5. Run `grunt sass` or `grunt watch` to test output. (See the `demo` folder.)
+
+## 2. Create tests in the `test/lib` folder
+
+1. The filename should be the same as your partial.
+2. Add your test partial to `test/test.scss`.
+3. Run `grunt test` to... run tests.
+
+## 3. Create documentation
+
+1. Add Sassdoc annotations to all variables, functions, and mixins. Make sure you add a [file-level annotation](http://sassdoc.com/file-level-annotations/) with your name as the author.
+2. Run `grunt sassdoc` to generate documentation.
+
+## 4. Create a Pull Request

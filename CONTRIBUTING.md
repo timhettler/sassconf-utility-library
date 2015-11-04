@@ -8,7 +8,7 @@ After you fork this library, make a new branch, then follow these guidelines:
 2. Public variables should start with the prefix `scu-`.
 3. Private variables, fuctions, and mixins should start with an underscore (i.e. `@function _this-is-a-private-function`).
 4. Add your partial to `sass/_utilities.scss`.
-5. Run `grunt sass` or `grunt watch` to test output.
+5. Run `grunt sass` or `grunt watch` to test output. (See the `demo` folder.)
 
 ## 2. Create tests in the `test/lib` folder
 
