@@ -20,3 +20,6 @@ npm install sassconf-utilities --savedev
 bower install sassconf-utilities --savedev
 ```
 
+## Documentation
+
+You can learn about all the mixins and functions available in this library by visiting the [SassDoc page](http://timhettler.github.io/sassconf-utility-library/sassdoc/).
